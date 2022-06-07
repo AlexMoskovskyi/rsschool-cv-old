@@ -15,6 +15,8 @@ JavaScript (Basic)
 Git
 
 Education:
+
+Education:
 2010 Kyiv Economic Institute of Management
  "Finance and Credit".
 
