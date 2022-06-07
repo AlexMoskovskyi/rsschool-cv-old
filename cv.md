@@ -1,4 +1,7 @@
 Moskovskyi  Oleksandr 
+
+Contacts:
+Location: Kiev, Ukraine
 Tel.:      +38093574773
 E-mail:    moscow5@i.ua
 Discord:   AleksandrJ-S#6769
@@ -11,17 +14,19 @@ CSS
 JavaScript (Basic)
 Git
 
-Courses:
-GoIt-https://drive.google.com/file/d/13vRLzUW4-gMScNRepK_WSjhXWW8eKakJ/view
-Sololearn-https://www.sololearn.com/Certificate/1014-3818707/jpg/
-
 Education:
 
+Education:
 2010 Kyiv Economic Institute of Management
  "Finance and Credit".
 
 2003 Kyiv Transport and Economic College
 "Organization of transportation and management at the auto transport port".
+
+Courses:
+GoIt-https://drive.google.com/file/d/13vRLzUW4-gMScNRepK_WSjhXWW8eKakJ/view
+Sololearn-https://www.sololearn.com/Certificate/1014-3818707/jpg/
+
 
 Languages:
 Ukranian ......... [ Native ]
