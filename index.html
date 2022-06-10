@@ -2,13 +2,171 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-    
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        function animateText(id, text, i) {
+          document.getElementById(id).innerHTML = text.substring(0, i);
+          i++;
+          if (i > text.length) i = 0;
+          setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 100);
+        }
+      </script>
 </head>
-<body>
-    
+<body><body onload = 'animateText("dynamic-text", "Moskovskyi Aleksandr", 0);'> 
+    <!-- main conteiner-->    
+    <div class="main_conteiner">
+        <!-- main section-->
+        <div class="main_section">
+                <!-- text-intro section-->
+                <div class="text-intro_section">
+                    
+                    <h2 class="about_me_profession">Front-End Developer</h2>           
+                    <h1 class="about_me_name"> <span id = 'dynamic-text'></span> .</h1>   </body>
+
+                    <p class="about_me_description">I completed the one week maraphon frontend developer in GoIt school. I am very interested in this profession and I want to develop in this direction. At this moment I have some experience with HTML, CSS and JavaScript. And I hope that you can offer me the job of my dreams. </p>
+                </div>    
+                    
+                <!-- projects section-->
+                <div class="projects_section">
+                    <h3 class="main_content_title">Projects</h3>
+
+                    <ol class="my_project_list">
+                        <li class="my_project_item"> 
+                            <span class="my_project_text">
+                            <a href="https://drive.google.com/file/d/13vRLzUW4-gMScNRepK_WSjhXWW8eKakJ/view?usp=sharing" class="my_project_link">GoIT English HTML</a>
+                            .....................
+                            <span class="my_project_bracket">[</span> HTML5, CSS3 <span class="my_project_bracket">]</span>
+                            </span>
+                        </li>
+                        <li class="my_project_item">
+                            <span class="my_project_text">
+                            <a href="https://www.sololearn.com/Certificate/1014-3818707/jpg/" class="my_project_link">Sololearn HTML course/</a> 
+                            ..................
+                            <span class="my_project_bracket">[</span> HTML <span class="my_project_bracket">]</span>
+                            </span>
+                        </li>
+                    </ol>
+            
+                
+                </div>
+                <!-- work experience section-->
+                <div class="work_experience_section">
+                    <h3 class="main_content_title">Work Experience</h3>
+                            
+                    <!-- company 3-->
+                    <div class="work_company">
+                        <h4 class="work_experience_position"> Jeweler Freelance <span class="work_experience_company"> Freelance</span></h4>
+                        <p class="work_experience_period">01.2013 - ... <span class="work_experience_divider">|</span> Country</p>
+                        <ul class="work_experience_list">
+                            <li> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolores repellendus iure, quae atque soluta, obcaecati voluptate in molestias adipisci ex laboriosam. Vitae nihil recusandae fugiat dolor error ducimus vero? </li> 
+                            <li> Lorem ipsum dolor sit amet consectetur adipisicing. </li> 
+                            <li> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                            <li> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore? </li>
+                        </ul>
+                    </div>
+                    <!-- company 2-->
+                    <div class="work_company">
+                        <h4 class="work_experience_position"> Jewelry production manager <span class="work_experience_company">ЧП «Меркурий»</span> </h4>
+                        <p class="work_experience_period">06.2012 - 01.2013 <span class="work_experience_divider">|</span> Country</p>
+                        <ul class="work_experience_list">
+                            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore. </li> 
+                            <li> Lorem ipsum dolor sit amet consectetur.  </li> 
+                            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, deserunt? </li>
+                            <li> Lorem, ipsum dolor.  </li>
+                        </ul>
+                        <!-- company 1-->
+                    <div class="work_company">
+                        <h4 class="work_experience_position"> Jeweler <span class="work_experience_company">ЧП «Меркурий»</span></h4>
+                        <p class="work_experience_period">11.2003 - 01.2012 <span class="work_experience_divider">|</span> Country</p>
+                        <ul class="work_experience_list">
+                            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rerum autem perferendis, praesentium mollitia quaerat culpa alias voluptatem illum porro ex, accusamus architecto quasi eveniet nostrum atque  </li> 
+                            <li> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </li> 
+                            <li> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, officiis quibusdam. Quas, voluptatum voluptatem? </li>
+                            <li> Lorem ipsum dolor sit amet consectetur. </li>
+                        </ul>
+                    </div>
+                    </div>
+                        
+                            
+                </div>
+                <!-- education section-->
+                <div class="education_section">
+                    <h3 class="main_content_title">Education</h3>
+                            
+                    <!-- university-->
+                    <div>
+                        <h4 class="education_type">  Kyiv Economic Institute of Management</h4>
+                        <h5 class="education_specialisation"> "Finance and Credit".</h5>
+                        <p class="education_period"> 2005-2010 <span class="work_experience_divider">|</span> Ukraine</p>
+                    
+                    </div>
+                    <!-- coledge-->
+                    <div>
+                        <h4 class="education_type"> Kyiv Transport and Economic College</h4>
+                        <h5 class="education_specialisation">"Organization of transportation and management at the auto transport".</h5>
+                        <p class="education_period"> 2000-2003 <span class="work_experience_divider">|</span>Ukraine</p>
+                    
+                    </div>
+                        
+                            
+                </div>
+
+            
+        </div>
+
+        <!-- sidebar sections -->
+        <aside class="sidebar_sections">
+
+                <img width="370"src="img/2.jpeg" alt="my photo">
+
+                <!-- contacts section -->
+                <div >
+                    <div class="contacts_section">
+                        <!--<script>alert('HELLO');</script>-->
+                        <h3 class="sidebar_title">Contacts</h3>
+                        <div>
+                            <span class="contacts_type">&#9743;Teleph:</span>
+                            <a class="contacts_link" href="tel:+38093574273">     +38093574273</a>
+
+                        </div>
+                        <div>
+                            <span class="contacts_type">&#9993;E-mail:</span>
+                            <a  class="contacts_link" href="mailto:moscow5@i.ua">moscow5@i.ua</a>
+                        </div>
+                    </div>
+
+                    <!-- tech skills section -->
+                    <div class="tech_skills_section">
+                        <h3 class="sidebar_title">Tech Skills</h3>
+                        <ul class="tech_skills_list">
+                            <li class="skills_item"><span class="skills_text">HTML5</span></li>
+                            <li class="skills_item"><span class="skills_text">CSS3</span></li>
+                            <li class="skills_item"><span class="skills_text">GIT</span></li>
+                            <li class="skills_item"><span class="skills_text">WebPack</span></li>
+                            <li class="skills_item"><span class="skills_text">JavaScript</span></li>
+                            <li class="skills_item"><span class="skills_text">React.js</span></li>
+                            <li class="skills_item"><span class="skills_text">Node.js</span></li>
+                        </ul>
+                    </div>
+                    <!-- soft skills section -->
+                    <div class="soft_skills_section">
+                        <h3 class="sidebar_title">Soft Skills</h3>
+                        <ul class="soft_skills_list">
+                            <li class="skills_item"><span class="skills_text">Scrum</span></li>
+                            <li class="skills_item"><span class="skills_text">Agile</span></li>
+                            <li class="skills_item"><span class="skills_text">GTD</span></li>
+                            <li class="skills_item"><span class="skills_text">Teamwork</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+        </aside>
+        
+    </div>   
 </body>
 </html>
