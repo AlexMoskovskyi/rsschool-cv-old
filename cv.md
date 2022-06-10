@@ -57,8 +57,8 @@ if (numbers.length > 0)
 ## Courses  
 * [RS School](https://rs.school/) course:  
     + Java Script/Front-end. Stage 0 (in progress)  
-* [Netology](https://netology.ru/) course:  
-    + Frontend developer from scratch    
+* [GoIt](https://goit.ua/marathon/) course:  
+    + Frontend developer    
 
 ## Languages  
 **Russian**  –  native 
