@@ -1,34 +1,66 @@
-Moskovskyi  Oleksandr 
+# Moskovskyi  Oleksandr
 
-Contacts:
-Location: Kiev, Ukraine
-Tel.:      +38093574773
-E-mail:    moscow5@i.ua
-Discord:   AleksandrJ-S#6769
+### Contacts  
 
+**Location:**   Kiev, Ukraine
+**E-mail:**     moscow5@i.ua  
+**Phone:**      +38 (093)574-72-73
+**GitHub:** [AlexMoskovskyi](https://github.com/AlexMoskovskyi)  
+**Discord:** [AlexMoskovskyi#6769](http://discordapp.com/users/#6769)  
+
+### About myself  
 I completed the one week maraphon frontend developer in GoIt school. I am very interested in this profession and I want to develop in this direction. At this moment I have some experience with HTML, CSS and JavaScript. And I hope that you can offer me the job of my dreams.
 
-Skills:
-HTML
-CSS
-JavaScript (Basic)
-Git
 
-Education:
+## Skills  
+#### Hard skills  
+- **MS Office:** Excel, Outlook, PowerPoint, Word  
+- **Database management:** MS Access, MySQL, Oracle  
+- **Project management:** waterfall/agile, software requirements, business processes (Aris Express, Camunda Modeler)  
+- **Programming skills:** HTML/CSS/JavaScript (basic), Java (basic), , MySQL, SQL  
+- **IDE:**  Visual Studio Code, IntelliJ IDEA  
+- **VCS:**  GitHub, Git  
+#### Soft skills  
+- Time management  
+- Flexibility/adaptability  
+- Attention to detail  
+- Stress resistance  
+- Activity  
 
-Education:
-2010 Kyiv Economic Institute of Management
- "Finance and Credit".
+## Code examples  
 
-2003 Kyiv Transport and Economic College
-"Organization of transportation and management at the auto transport port".
+```  
+int[] numbers = {5, 8, 12, -18, -54, 84, -35, 17, 37};
 
-Courses:
-GoIt-https://drive.google.com/file/d/13vRLzUW4-gMScNRepK_WSjhXWW8eKakJ/view
-Sololearn-https://www.sololearn.com/Certificate/1014-3818707/jpg/
+double average = 0;
+if (numbers.length > 0)
+{
+    double sum = 0;
+    for (int j = 0; j < numbers.length; j++) {
+         sum += numbers[j];
+    }
+    average = sum / numbers.length;
+}
 
+```  
 
-Languages:
-Ukranian ......... [ Native ]
-Russian  ......... [ Native ]
-English  ......... [ A2     ]
+## Projects  
+- Resume [«Resume»](https://moskovskyi-resume.netlify.app/)  
+ 
+
+## Education  
+1.  2010 Kyiv Economic Institute of Management
+    **"Finance and Credit".**
+    
+2. 2003 Kyiv Transport and Economic College
+    **"Organization of transportation and management at the auto transport port".**
+## Courses  
+* [RS School](https://rs.school/) course:  
+    + Java Script/Front-end. Stage 0 (in progress)  
+* [Netology](https://netology.ru/) course:  
+    + Frontend developer from scratch    
+
+## Languages  
+**Russian**  –  native 
+**Ukranian** -  native
+**English**  –  Pre-Intermediate (A2)
