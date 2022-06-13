@@ -1,1 +1,2 @@
-## https://AlexMoskovskyi.github.io/rsschool-cv/
+## https://github.com/AlexMoskovskyi/rsschool-cv/
+
