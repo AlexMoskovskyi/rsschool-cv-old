@@ -2,13 +2,191 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
-    
+    <title>Resume</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+    <script>
+        function animateText(id, text, i) {
+          document.getElementById(id).innerHTML = text.substring(0, i);
+          i++;
+          if (i > text.length) i = 0;
+          setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 100);
+        }
+      </script>
 </head>
-<body>
-    
+<body onload = 'animateText("dynamic-text", "Moskovskyi Aleksandr", 0);'> 
+    <!-- main conteiner-->    
+    <div class="main_conteiner">
+        <div class="conteiner_section">
+            <!-- main section-->
+            <div class="main_section">
+                <!-- text-intro section-->
+                <div class="text-intro_section">
+                    
+                    <h2 class="about_me_profession">Front-End Developer</h2>           
+                    <h1 class="about_me_name"> <span id = 'dynamic-text'></span> .</h1>   
+                
+
+                    <p class="about_me_description">I completed the one week maraphon frontend developer in GoIt school. I am very interested in this profession and I want to develop in this direction. At this moment I have some experience with HTML, CSS and JavaScript. And I hope that you can offer me the job of my dreams. </p>
+                </div>    
+                    
+                <!-- courses section-->
+                <div class="courses_section">
+                    <h3 class="main_content_title">Courses</h3>
+
+                    <ol class="my_courses_list">
+                        <li class="my_courses_item"> 
+                            <span class="my_courses_text">
+                            <a href="https://drive.google.com/file/d/13vRLzUW4-gMScNRepK_WSjhXWW8eKakJ/view?usp=sharing" class="my_courses_link">GoIT English HTML</a>
+                            ..................................................
+                            <span class="my_courses_bracket">[</span> HTML5, CSS3 <span class="my_courses_bracket">]</span>
+                            </span>
+                        </li>
+                        <li class="my_courses_item">
+                            <span class="my_courses_text">
+                            <a href="https://www.sololearn.com/Certificate/1014-3818707/jpg/" class="my_courses_link">Sololearn HTML course</a> 
+                            ............................................
+                            <span class="my_courses_bracket">[</span> HTML <span class="my_courses_bracket">]</span>
+                            </span>
+                        </li>
+                        <li class="my_courses_item">
+                            <span class="my_courses_text">
+                            <a href="https://rs.school/images/rs_school_js.svg" class="my_courses_link">JS / FRONT-END. STAGE 0 (in progress)</a> 
+                            ...............
+                            <span class="my_courses_bracket">[</span> HTML, CSS3, JavaScript <span class="my_courses_bracket">]</span>
+                            </span>
+                        </li>
+                    </ol>
+            
+                
+                </div>
+                <!-- work experience section-->
+                <div class="work_experience_section">
+                    <h3 class="main_content_title">Work Experience</h3>
+                            
+                    <!-- company 3-->
+                    <div class="work_company">
+                        <h4 class="work_experience_position"> Jeweler <span class="work_experience_company"> Freelance</span></h4>
+                        <p class="work_experience_period">01.2013 - ... <span class="work_experience_divider">|</span> Ukraine</p>
+                        <ul class="work_experience_list">
+                            <li> We provide a full range of services for the manufacture of jewelry, from design to packaging.</li>
+                            <li> Making custom jewelry of any complexity. </li> 
+                            <li> Restoration of antique jewelry. </li> 
+                        </ul>
+                    </div>
+                    <!-- company 2-->
+                    <div class="work_company">
+                        <h4 class="work_experience_position"> Jewelry production manager <span class="work_experience_company"> «Mercury Jewellery»</span> </h4>
+                        <p class="work_experience_period">06.2012 - 01.2013 <span class="work_experience_divider">|</span> Ukraine</p>
+                        <ul class="work_experience_list">
+                            <li> Manage production and economic and trade and service activities of jewelry production. </li>  
+                            <li> Organization of work and effective interaction of production workshops, directs their activities to ensure high quality. </li>
+                            <li> Quality control of jewelry production.  </li>
+                        </ul>
+                    </div>
+                    <!-- company 1-->
+                    <div class="work_company">
+                        <h4 class="work_experience_position"> Jeweler <span class="work_experience_company"> «Mercury Jewellery»</span></h4>
+                        <p class="work_experience_period">11.2003 - 01.2012 <span class="work_experience_divider">|</span> Ukraine</p>
+                        <ul class="work_experience_list">
+                            <li> Jewelry mount.  </li> 
+                            <li> Jewelry polishing. </li> 
+                            <li> Setting stones in jewelry </li>
+                        </ul>
+                    </div>
+                        
+                            
+                </div>
+                <!-- education section-->
+                <div class="education_section">
+                    <h3 class="main_content_title">Education</h3>
+                            
+                    <!-- university-->
+                    <div>
+                        <h4 class="education_type">  Kyiv Economic Institute of Management</h4>
+                        <h5 class="education_specialisation"> "Finance and Credit".</h5>
+                        <p class="education_period"> 2005-2010 <span class="work_experience_divider">|</span> Ukraine</p>
+                    
+                    </div>
+                    <!-- coledge-->
+                    <div>
+                        <h4 class="education_type"> Kyiv Transport and Economic College</h4>
+                        <h5 class="education_specialisation">"Organization of transportation and management at the auto transport".</h5>
+                        <p class="education_period"> 2000-2003 <span class="work_experience_divider">|</span>Ukraine</p>
+                    
+                    </div>
+                        
+                            
+                </div>
+
+            
+            </div>
+            <!-- sidebar sections -->
+            <aside class="sidebar_sections">
+
+                <img width="370" src="img/2.jpeg" alt="my photo">
+
+                <!-- contacts section -->
+                <div >
+                    <div class="contacts_section">
+                      
+                        <h3 class="sidebar_title">Contacts</h3>
+                        <div>
+                            <span class="contacts_type">&#9743;Teleph:</span>
+                            <a class="contacts_link" href="tel:+38093574273">     +38093574273</a>
+
+                        </div>
+                        <div>
+                            <span class="contacts_type">&#9993;E-mail:</span>
+                            <a  class="contacts_link" href="mailto:moscow5@i.ua">moscow5@i.ua</a>
+                        </div>
+                    </div>
+
+                    <!-- tech skills section -->
+                    <div class="tech_skills_section">
+                        <h3 class="sidebar_title">Tech Skills</h3>
+                        <ul class="tech_skills_list">
+                            <li class="skills_item"><span class="skills_text">HTML5</span></li>
+                            <li class="skills_item"><span class="skills_text">CSS3</span></li>
+                            <li class="skills_item"><span class="skills_text">GIT</span></li>
+                            <li class="skills_item"><span class="skills_text">WebPack</span></li>
+                            <li class="skills_item"><span class="skills_text">JavaScript</span></li>
+                            <li class="skills_item"><span class="skills_text">SQL</span></li>
+                        </ul>
+                    </div>
+                    <!-- soft skills section -->
+                    <div class="soft_skills_section">
+                        <h3 class="sidebar_title">Soft Skills</h3>
+                        <ul class="soft_skills_list">
+                            <li class="skills_item"><span class="skills_text">Scrum</span></li>
+                            <li class="skills_item"><span class="skills_text">Agile</span></li>
+                            <li class="skills_item"><span class="skills_text">GTD</span></li>
+                            <li class="skills_item"><span class="skills_text">Critical thinking</span></li>
+                            <li class="skills_item"><span class="skills_text">Adaptability</span></li>
+                            <li class="skills_item"><span class="skills_text">Empathy</span></li>
+                            <li class="skills_item"><span class="skills_text">Teamwork</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <!-- footer sections -->
+        <div class="footer_section">
+            <footer    class="footer">
+                <p>© 2022 Copyright by AlexMoskovskyi  </p>
+                <a class="footer_link" href="https://github.com/AlexMoskovskyi">
+                    <img class="footer_icon" src="img/rs_school_js.svg" alt="RSSchool">
+                    <p>RSSchool</p>
+                </a>
+                <a class="footer_link" href="https://github.com/AlexMoskovskyi">
+                    <img class="footer_icon" src="img/48px_github_icon.png" alt="Logo GitHub">
+                    <p>My GitHub</p>
+                </a>
+            </footer> 
+        </div>   
+    </div> 
 </body>
 </html>
