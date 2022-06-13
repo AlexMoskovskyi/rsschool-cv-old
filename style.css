@@ -1,6 +1,48 @@
+/* header section */
+.header_container {
+   width: 1200px;
+   background-color: #1e2939;
+   margin: auto; 
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   gap: 20px;
+ }
+ 
+ nav {
+   width: 100%;
+ }
+ .nav_item{
+   text-align: left;
+ }
+ 
+ .navigation li {
+   padding: 0 50px 0 10px;
+   /* width: calc(100% / 7);  */
+ }
+ 
+ .navigation {
+   display: flex;
+   align-items: center;
+   color: #fb6d3a;
+ }
+ 
+ .nav_item:hover {
+   color: #fb6d3a;
+ }
+ 
+ .nav_item:hover:after {
+   color: #fb6d3a;
+   content: ">";
+ }
+ 
+ .nav_item:hover:before {
+   color: #fb6d3a;
+   content: "<";
+ }
+ /* main section */
 body{
     font-family: 'Montserrat', sans-serif;
-
     background-color: #f5f7fa;
    
 } 
@@ -9,8 +51,8 @@ body{
    flex-direction: column;
    width: 1200px;
    background-color: #fff;
-   margin: 40px auto;
-   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+   margin: auto;
+   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .main_section{
    display: flex;
@@ -92,7 +134,14 @@ body{
    color: #000;
 
 }
-
+/* Code Example */
+.code_expirience{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+   margin: 0 0 10px 0;
+}
 /* Work Experience */
 .work_experience_company{
    color: #fb6d3a;
@@ -161,7 +210,7 @@ body{
 .sidebar_sections{
    background-color: #1e2939;
    width: 370px;
-   padding-top: 40px;
+   /* padding-top: 40px; */
 }
 
 .soft_skills_section,

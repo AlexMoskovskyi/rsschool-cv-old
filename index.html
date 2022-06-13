@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>CV AlexMoskovskyi</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
@@ -17,6 +18,22 @@
         }
       </script>
 </head>
+    <!-- header conteiner -->
+    <header>
+        <div class="header_container">
+        <nav>
+            <ul class="navigation">
+            <li><a class="nav_item" href="#about_info">ABOUT ME</a></li>
+            <li><a class="nav_item" href="#courses">COURSES</a></li>
+            <li><a class="nav_item" href="#skills">SKILLS</a></li>
+            <li><a class="nav_item" href="#code">CODE EXAMPLE</a></li>
+            <li><a class="nav_item" href="#work_expirience">WORK EXPIRIENCE</a></li>
+            <li><a class="nav_item" href="#education">EDUCATION</a></li>
+            <li><a class="nav_item" href="#contacts">CONTACTS</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
 <body onload = 'animateText("dynamic-text", "Moskovskyi Aleksandr", 0);'> 
     <!-- main conteiner-->    
     <div class="main_conteiner">
@@ -25,18 +42,16 @@
             <div class="main_section">
                 <!-- text-intro section-->
                 <div class="text-intro_section">
-                    
+                    <section id="about_info">
                     <h2 class="about_me_profession">Front-End Developer</h2>           
                     <h1 class="about_me_name"> <span id = 'dynamic-text'></span> .</h1>   
-                
-
                     <p class="about_me_description">I completed the one week maraphon frontend developer in GoIt school. I am very interested in this profession and I want to develop in this direction. At this moment I have some experience with HTML, CSS and JavaScript. And I hope that you can offer me the job of my dreams. </p>
-                </div>    
-                    
+                    </section> 
+                </div>       
                 <!-- courses section-->
                 <div class="courses_section">
+                    <section id="courses">
                     <h3 class="main_content_title">Courses</h3>
-
                     <ol class="my_courses_list">
                         <li class="my_courses_item"> 
                             <span class="my_courses_text">
@@ -60,13 +75,43 @@
                             </span>
                         </li>
                     </ol>
-            
-                
+                    </section>
                 </div>
+                <!-- code example section-->
+                <div class="Code_example_section">
+                    <section id="code">
+                        <h3 class="main_content_title" >Code example</h3>
+                        <div class="code_content">
+                        <pre>
+                        <code>
+...
+
+int[] numbers = {5, 8, 12, -18, -54, 84, -35, 17, 37};
+double average = 0;
+if (numbers.length > 0)
+{
+    double sum = 0;
+    for (int j = 0; j < numbers.length;j++) {
+        sum += numbers[j];
+    }
+    average = sum / numbers.length;
+}
+
+...
+                        </code>  
+                        </pre>
+                        </div>
+                    </section>
+                </div>
+                <!-- My project section -->
+                <section id="resume">
+                <h3 class="main_content_title" >My project</h3>
+                <a  class="my_project_section" href="https://moscovskyi-resume.netlify.app">Resume</a>
+                </section>
                 <!-- work experience section-->
+                <section id="work_expirience">
                 <div class="work_experience_section">
-                    <h3 class="main_content_title">Work Experience</h3>
-                            
+                    <h3 class="main_content_title">Work Experience</h3>     
                     <!-- company 3-->
                     <div class="work_company">
                         <h4 class="work_experience_position"> Jeweler <span class="work_experience_company"> Freelance</span></h4>
@@ -96,56 +141,57 @@
                             <li> Jewelry polishing. </li> 
                             <li> Setting stones in jewelry </li>
                         </ul>
-                    </div>
-                        
-                            
+                </div>           
                 </div>
+                </section>
                 <!-- education section-->
+                <section id="education">
                 <div class="education_section">
-                    <h3 class="main_content_title">Education</h3>
-                            
+                    <h3 class="main_content_title">Education</h3>   
                     <!-- university-->
                     <div>
                         <h4 class="education_type">  Kyiv Economic Institute of Management</h4>
                         <h5 class="education_specialisation"> "Finance and Credit".</h5>
                         <p class="education_period"> 2005-2010 <span class="work_experience_divider">|</span> Ukraine</p>
-                    
                     </div>
                     <!-- coledge-->
                     <div>
                         <h4 class="education_type"> Kyiv Transport and Economic College</h4>
                         <h5 class="education_specialisation">"Organization of transportation and management at the auto transport".</h5>
                         <p class="education_period"> 2000-2003 <span class="work_experience_divider">|</span>Ukraine</p>
-                    
-                    </div>
-                        
-                            
+                    </div>     
                 </div>
-
-            
+                </section>
             </div>
             <!-- sidebar sections -->
             <aside class="sidebar_sections">
-
                 <img width="370" src="img/2.jpeg" alt="my photo">
-
                 <!-- contacts section -->
                 <div >
+                    <section id="contacts">
                     <div class="contacts_section">
-                      
                         <h3 class="sidebar_title">Contacts</h3>
                         <div>
+                            <h4>Location: Kiev, Ukraine </h4>
                             <span class="contacts_type">&#9743;Teleph:</span>
                             <a class="contacts_link" href="tel:+38093574273">     +38093574273</a>
-
                         </div>
                         <div>
                             <span class="contacts_type">&#9993;E-mail:</span>
                             <a  class="contacts_link" href="mailto:moscow5@i.ua">moscow5@i.ua</a>
                         </div>
+                        <div>
+                            <span class="contacts_type"><i class="fa fa-telegram" aria-hidden="true"></i>Telegram: </span>
+                            <a  class="contacts_link" href="https://t.me/AleksandrMW">AleksandrMW</a>
+                        </div>
+                        <div>
+                            <span class="contacts_type">Discord: </span>
+                            <a  class="contacts_link" href="http://discordapp.com/users/#6769">AlexMoskovskyi#6769</a>
+                        </div>
                     </div>
-
+                    </section>
                     <!-- tech skills section -->
+                    <section id="skills">
                     <div class="tech_skills_section">
                         <h3 class="sidebar_title">Tech Skills</h3>
                         <ul class="tech_skills_list">
@@ -170,6 +216,7 @@
                             <li class="skills_item"><span class="skills_text">Teamwork</span></li>
                         </ul>
                     </div>
+                    </section>
                 </div>
             </aside>
         </div>
