@@ -14,10 +14,12 @@
           document.getElementById(id).innerHTML = text.substring(0, i);
           i++;
           if (i > text.length) i = 0;
-          setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 100);
+          setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 200);
         }
       </script>
 </head>
+    
+<body onload = 'animateText("dynamic-text", "Moskovskyi Aleksandr", 0);'>  -->
     <!-- header conteiner -->
     <header>
         <div class="header_container">
@@ -34,7 +36,6 @@
         </nav>
         </div>
     </header>
-<body onload = 'animateText("dynamic-text", "Moskovskyi Aleksandr", 0);'> 
     <!-- main conteiner-->    
     <div class="main_conteiner">
         <div class="conteiner_section">
@@ -44,7 +45,7 @@
                 <div class="text-intro_section">
                     <section id="about_info">
                     <h2 class="about_me_profession">Front-End Developer</h2>           
-                    <h1 class="about_me_name"> <span id = 'dynamic-text'></span> .</h1>   
+                    <h1 class="about_me_name"><span id = 'dynamic-text'>Moskovskyi Aleksandr</span>.</h1>   
                     <p class="about_me_description">I completed the one week maraphon frontend developer in GoIt school. I am very interested in this profession and I want to develop in this direction. At this moment I have some experience with HTML, CSS and JavaScript. And I hope that you can offer me the job of my dreams. </p>
                     </section> 
                 </div>       
@@ -78,36 +79,37 @@
                     </section>
                 </div>
                 <!-- code example section-->
-                <div class="Code_example_section">
+                <div class="code_example_section">
                     <section id="code">
                         <h3 class="main_content_title" >Code example</h3>
                         <div class="code_content">
                         <pre>
                         <code>
-...
+                            let a = 2 + 2;
 
-int[] numbers = {5, 8, 12, -18, -54, 84, -35, 17, 37};
-double average = 0;
-if (numbers.length > 0)
-{
-    double sum = 0;
-    for (int j = 0; j < numbers.length;j++) {
-        sum += numbers[j];
-    }
-    average = sum / numbers.length;
-}
-
-...
+                            switch (a) {
+                              case 3:
+                                alert( 'Маловато' );
+                                break;
+                              case 4:
+                                alert( 'В точку!' );
+                                break;
+                              case 5:
+                                alert( 'Перебор' );
+                                break;
+                              default:
+                                alert( "Нет таких значений" );
+                            }
                         </code>  
                         </pre>
                         </div>
                     </section>
                 </div>
-                <!-- My project section -->
-                <section id="resume">
-                <h3 class="main_content_title" >My project</h3>
-                <a  class="my_project_section" href="https://moscovskyi-resume.netlify.app">Resume</a>
-                </section>
+                <!-- My projects section -->
+                <div id="resume">
+                    <h3 class="main_content_title" >My projects</h3>
+                    <a  class="my_projects_section" href="https://moscovskyi-resume.netlify.app"><h3>    Resume</h3></a>
+                </div>
                 <!-- work experience section-->
                 <section id="work_expirience">
                 <div class="work_experience_section">
@@ -161,6 +163,15 @@ if (numbers.length > 0)
                         <p class="education_period"> 2000-2003 <span class="work_experience_divider">|</span>Ukraine</p>
                     </div>     
                 </div>
+                </section>
+                <!-- Languages_section-->
+                <section id="languages" class="languages_section">
+                    <h3 class="main_content_title">Languages</h3>
+                        <ul class="work_experience_list">
+                            <li> Russian – native.</li>
+                            <li> Ukranian - native.</li> 
+                            <li> English – Pre-Intermediate (A2).</li> 
+                        </ul>
                 </section>
             </div>
             <!-- sidebar sections -->
@@ -237,3 +248,16 @@ if (numbers.length > 0)
     </div> 
 </body>
 </html>
+ <!-- ... -->
+
+                        <!-- int[] numbers = {5, 8, 12, -18, -54, 84, -35, 17, 37}; -->
+                        <!-- double average = 0; -->
+                        <!-- if (numbers.length > 0) -->
+                        <!-- { -->
+                            <!-- double sum = 0; -->
+                            <!-- for (int j = 0; j < numbers.length;j++) { -->
+                                <!-- sum += numbers[j]; -->
+                            <!-- } -->
+                            <!-- average = sum /numbers.length; -->
+                        <!-- } -->
+                        <!-- ... -->
